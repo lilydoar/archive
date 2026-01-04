@@ -2,9 +2,7 @@
 title: "Archive"
 ---
 
-## Contact
-
-[Email](lilydoar4@gmail.com)
+lilydoar4@gmail.com
 
 [GitHub](https://github.com/lilydoar)
 
