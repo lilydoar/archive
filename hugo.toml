@@ -1,0 +1,21 @@
+baseURL = 'https://lilydoar.github.io/portfolio/'
+languageCode = 'en-us'
+title = 'Lily Baginski Doar'
+theme = 'portfolio-theme'
+
+[menus]
+  [[menus.main]]
+    name = 'Home'
+    pageRef = '/'
+    weight = 10
+  [[menus.main]]
+    name = 'Gallery'
+    pageRef = '/gallery'
+    weight = 20
+  [[menus.main]]
+    name = 'Writing'
+    pageRef = '/writing'
+    weight = 30
+
+[params]
+  description = 'Personal archive'

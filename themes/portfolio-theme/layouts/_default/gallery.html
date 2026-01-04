@@ -1,0 +1,20 @@
+{{ define "main" }}
+  <h1>{{ .Title }}</h1>
+  {{ .Content }}
+
+  <div class="gallery">
+    {{ range .Params.images }}
+      <figure class="gallery-item">
+        {{ $image := $.Resources.GetMatch .file }}
+        {{ if $image }}
+          <img src="{{ $image.RelPermalink }}" alt="{{ .caption }}" loading="lazy">
+        {{ else }}
+          <img src="{{ .file }}" alt="{{ .caption }}" loading="lazy">
+        {{ end }}
+        {{ with .caption }}
+          <figcaption>{{ . }}</figcaption>
+        {{ end }}
+      </figure>
+    {{ end }}
+  </div>
+{{ end }}
