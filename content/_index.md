@@ -2,11 +2,10 @@
 title: "Archive"
 ---
 
-Write a bit about yourself here.
-
 ## Contact
 
-You can reach me at:
+[Email](lilydoar4@gmail.com)
 
-- Email: your@email.com
-- GitHub: [yourusername](https://github.com/yourusername)
+[GitHub](https://github.com/lilydoar)
+
+[LinkedIn](https://www.linkedin.com/in/lily-doar/)

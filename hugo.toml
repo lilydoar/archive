@@ -1,25 +1,30 @@
-baseURL = 'https://lilydoar.github.io/archive/'
-languageCode = 'en-us'
-title = 'Lily Baginski Doar'
-theme = 'archive'
+baseURL = "https://lilydoar.github.io/archive/"
+languageCode = "en-us"
+title = "Lily Baginski Doar"
+theme = "archive"
 
-[menus]
-  [[menus.main]]
-    name = 'Home'
-    pageRef = '/'
-    weight = 10
-  [[menus.main]]
-    name = 'Gallery'
-    pageRef = '/gallery'
-    weight = 20
-  [[menus.main]]
-    name = 'Writing'
-    pageRef = '/writing'
-    weight = 30
+[taxonomies]
+# disabled
 
 [params]
-  description = 'Personal archive'
+description = "Personal archive"
 
 [caches]
-  [caches.images]
-    dir = ':cacheDir/images'
+[caches.images]
+dir = ":cacheDir/images"
+
+[menus]
+[[menus.main]]
+name = "Home"
+pageRef = "/"
+weight = 10
+
+[[menus.main]]
+name = "Gallery"
+pageRef = "/gallery"
+weight = 20
+
+[[menus.main]]
+name = "Writing"
+pageRef = "/writing"
+weight = 30
